@@ -1,0 +1,47 @@
+/* remove accidental highlight on body click */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+/* all canvas's styling */
+canvas {
+  border-radius: 10px;
+}
+#clock {
+  border: 5px solid black;
+  border-radius: 15px;
+  padding:0px;
+  width: 630px;
+  background-color: black;
+  margin: auto;
+}
+#break-timer, #timer {
+  height: 80px;
+  
+}
+/* main timer controls */
+#controls, #break-controls {
+  border-radius: 0px;
+  width: 190px;
+  height: 80px;
+  float: left;
+  background-color: orange;
+  padding:0;
+  margin-right:0;
+}
+/* timer canvas's */
+#canvas {
+  border-radius: 0px 10px 0px 0px;
+}
+#break-canvas {
+  border-radius: 0px 0px 10px 0px;
+}
+#controls {
+  border-radius: 10px 0px 0px 0px;
+}
+#break-controls {
+  border-radius: 0px 0px 0px 10px;
+}
+
+
